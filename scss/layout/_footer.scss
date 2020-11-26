@@ -1,0 +1,26 @@
+$colors: (
+ twitter:#aa7a00,
+ facebook:  #3a5795,
+ instagram: #d86b43
+);
+
+@each $name-color, $bgcolor in $colors {
+    .btn--#{$name-color} {
+        background-color: $bgcolor;
+    }
+ }
+
+
+footer{
+    background: linear-gradient(90deg, rgb(36, 96, 187), #ffffff);
+    /* background-color:  rgb(97, 170, 151); */    
+    text-align: center;
+    height: 180px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    .redesFooter{
+        margin-bottom: 20px;
+    }
+}

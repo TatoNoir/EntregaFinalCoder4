@@ -1,0 +1,187 @@
+@import 'base';
+
+$ancho-imagen: 800px;
+
+.introEmpresa{    
+    text-align: center;
+    height: 500px;
+    padding-top: 50px;
+    .introEmpresa__titulo{
+        padding-top: 100px;
+        color: rgb(88, 112, 104);
+    }
+    .introEmpresa__texto{
+        
+        color: rgb(55, 34, 34);
+    }
+    img{
+        width: 600px;
+    }
+}
+
+.introServicios{
+    text-align: center;
+    height: 300px;
+    padding-top: 100px;
+    .introServicios__titulo{
+        color: rgb(88, 112, 104);
+    }
+}
+
+.serviciosDestacados{
+    background-color: $background-5;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.textoIntermedio{
+    background-color: $background-4;
+    text-align: center;
+    height: 550px;
+    padding-top: 50px;   
+    .textoIntermedio__titulo{
+        padding-top: 120px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .textoIntermedio__parrafo{
+        color: #ffdda4;
+    }
+}
+
+@media (min-width: 768px){
+    .textoIntermedio{
+        padding: 80px 100px;
+        text-align: center;
+    }
+}
+
+.miembrosEquipo{
+    height: auto;
+    padding-top: 100px;
+    .miembrosEquipo__tituloEquipo{
+        text-align: center;
+        color: rgb(88, 112, 104);
+    }
+    img{
+        width: 1000px;
+    }
+}
+
+.serviciosEmpresa{
+    height: 600px;
+    background-color: $background-3;
+    text-align: center;
+    padding-top: 30px;
+    .serviciosEmpresa__titulo{
+        color: rgb(216, 107, 67);
+        margin-bottom: 30px;
+    }
+}
+
+.slide-home{
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+
+@media (min-width: 768px){
+    .slide-home{
+        width: 900px;
+    }
+}
+
+
+
+.contacto{    
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .contacto__titulo{
+        color: rgb(170, 122, 0);
+    }
+    input{
+        background-color: #aaaaaa;
+    }
+
+}
+
+
+
+.grillaServicios{
+    display: grid;
+    grid-template-areas: 
+        "div div"
+        "div div";
+    grid-template-rows: 200px 250px;
+    grid-template-columns: 50% 30%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin: 0;	 
+    justify-content: center;
+    div{
+        display: inline-block;    
+        background-color: darkgrey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div:hover{ 
+        background-color: rgb(170, 122, 0);
+    }
+}
+
+
+
+.nuestroEquipo{
+    background-color: $background-4;
+    padding: 100px 150px;
+    .nuestroEquipo__img{
+        width: 400px;
+        border-radius: 500px;
+    }
+    .txtEquipo{      
+        padding-top: 100px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center; 
+        .txtEquipo__titulo{
+            text-align: center;
+            color: #ffffff;
+        }
+        .txtEquipo__texto{
+            color: #ffdda4;
+        }
+    }
+}
+
+
+
+.nuestrosClientes{
+    
+    text-align: center;
+    ul{
+        list-style-type: none;
+        li{
+            display: inline-block;
+            margin: 50px;
+        }
+    }
+}
+
+
+.listaClientes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 200px;
+        margin: 20px;
+    }
+}
+

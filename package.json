@@ -1,0 +1,14 @@
+{
+  "name": "entrega4",
+  "version": "1.0.0",
+  "description": "Entrega final 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mariano Painefil",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

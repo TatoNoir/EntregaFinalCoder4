@@ -1,0 +1,19 @@
+nav{
+    ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-end;
+    
+        li{    
+            margin: 15px;                
+            a{
+                font-family: 'Roboto', sans-serif;
+                text-decoration: none;
+                color: rgb(109, 109, 109);
+            }                
+        }
+    }
+    img{    
+        width: 180px;
+    }
+}   

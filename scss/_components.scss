@@ -1,0 +1,45 @@
+
+h1, h2, h3{
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+p, tr, ul li, form label{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.introEmpresa__titulo--tituloAnimado{    
+    -webkit-animation: cssAnimation 3.332s 1 ease;
+    -moz-animation: cssAnimation 3.332s 1 ease;
+    -o-animation: cssAnimation 3.332s 1 ease;
+}
+
+@-webkit-keyframes cssAnimation {
+from { -webkit-transform: rotate(0deg) scale(0.796) skew(1deg) translate(0px); }
+to { -webkit-transform: rotate(0deg) scale(0.833) skew(1deg) translate(0px); }
+}
+@-moz-keyframes cssAnimation {
+from { -moz-transform: rotate(0deg) scale(0.796) skew(1deg) translate(0px); }
+to { -moz-transform: rotate(0deg) scale(0.833) skew(1deg) translate(0px); }
+}
+@-o-keyframes cssAnimation {
+from { -o-transform: rotate(0deg) scale(0.796) skew(1deg) translate(0px); }
+to { -o-transform: rotate(0deg) scale(0.833) skew(1deg) translate(0px); }
+}
+
+.titulo-4{
+    color: rgb(170, 122, 0);
+}
